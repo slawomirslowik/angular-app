@@ -1,5 +1,5 @@
 {
-  "cars/all": [
+  "cars": [
     {
       "brand": "Audi",
       "model": "RS7",
@@ -14,18 +14,6 @@
       "brand": "Lamborghini",
       "model": "Urus",
       "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/10-small.jpeg"
-    }
-  ],
-  "cars/de": [
-    {
-      "brand": "Audi",
-      "model": "RS7",
-      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/3-small.jpeg"
-    },
-    {
-      "brand": "Mercedes",
-      "model": "GT",
-      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/4-small.jpeg"
     }
   ]
 }

@@ -1,5 +1,7 @@
 <div class="cards-container">
-    <app-car-card brand="Audi" model="RS7" imgSrc="https://www.szkolaangulara.pl/wp-content/uploads/2020/05/3-small.jpeg"></app-car-card>
-    <app-car-card brand="Mercedes" model="GT" imgSrc="https://www.szkolaangulara.pl/wp-content/uploads/2020/05/4-small.jpeg"></app-car-card>
-    <app-car-card brand="Lamborghini" model="Duda" imgSrc="https://www.szkolaangulara.pl/wp-content/uploads/2020/05/10-small.jpeg"></app-car-card>
+    <app-car-card *ngFor="let car of cars"
+    [model]="car.model"
+    [brand]="car.brand"
+    [imgSrc]="car.imgSrc"
+    ></app-car-card>
 </div>
